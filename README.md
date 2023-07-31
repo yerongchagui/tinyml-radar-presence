@@ -1,3 +1,12 @@
 # TinyML for Presence Detection using Millimetre-Wave Radar
 
-There is a growing demand for deploying Artificial Intelligence (AI) algorithms, particularly Deep Learning (DL) models, on embedded devices. With benefits such as reduced cost from low computational power and memory size requirements, reduced energy utilisation from lower latency, and improved data privacy as data is processed locally, it is possible to envision smart sensors that can make data-driven decisions in a secure and sustainable manner. In this project, data from a 60 GHz millimetre-wave radar sensor was collected and used to train a deep learning model for detecting the presence of one or more humans in front of a computer screen. Model compression techniques including post-training quantisation, pruning, clustering, and Quantisation-Aware Training (QAT) were applied, compared, and analysed in terms of accuracy loss and compression factor. The best performing model had an accuracy loss of 2.03% and a compression factor of 9.83 as a result of clustering, which was followed by post-training quantisation (with 8-bit integer activations and 32-bit float input). When the compressed model was deployed on Infineon's CYSBSYSKIT-DEV-01 board, the inference time was 453 ms and RAM utilisation was 85.6%, making it ideal for real-time inference.
+By: Zain Amir Zaman (PSS RFS AS RS SAS) <br />
+Supervised by: Julius Ott (PSS RFS D2 SW ACE)
+
+> :warning: This is work-in-progress.
+
+This work compares various machine learning model compression techniques in terms of compression ratio and accuracy loss. Data compression techniques such as quantisation, pruning, and clustering are explored.
+
+Contents of repository:
+* `/model_compression` is where you will find the compressed model source files.
+* `/embed_deploy` contains the source code for the embedded implementation.
