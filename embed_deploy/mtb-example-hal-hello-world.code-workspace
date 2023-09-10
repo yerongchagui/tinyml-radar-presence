@@ -1,0 +1,88 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../mtb_shared"
+        },
+        {
+            "path": "../../Desktop/mtb_ml_gen"
+        }
+    ],
+    "settings": {
+        //mtb//  If this project will be shared with multiple users, the
+        //mtb//  modustoolbox.toolsPath property must be placed in user settings
+        //mtb//  file instead of this file.  The user settings file location for
+        //mtb//  VSCode depends on your OS:
+        //mtb//
+        //mtb//      Windows: %APPDATA%\Code\User\settings.json
+        //mtb//      macOS  : $HOME/Library/Application Support/Code/User/settings.json
+        //mtb//      Linux  : $HOME/.config/Code/User/settings.json
+        //mtb//
+        "modustoolbox.toolsPath": "C:/Users/Zaman/ModusToolbox/tools_3.1",
+        "cortex-debug.armToolchainPath": "${config:modustoolbox.toolsPath}/gcc/bin",
+        "cortex-debug.openocdPath": "${config:modustoolbox.toolsPath}/openocd/bin/openocd.exe",
+        "cortex-debug.JLinkGDBServerPath.windows": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+        "cortex-debug.JLinkGDBServerPath.osx": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+        "cortex-debug.JLinkGDBServerPath.linux": "JLinkGDBServerCLExe",
+        "files.associations": {
+            "cy_retarget_io.h": "c",
+            "preprocessing.h": "c",
+            "inttypes.h": "c",
+            "cyhal.h": "c",
+            "cybsp.h": "c",
+            "ifx_sensor_dsp.h": "c",
+            "basic_math_functions.h": "c",
+            "radar_settings_embedded.h": "c",
+            "fast_math_functions.h": "c",
+            "pplcounting.h": "c",
+            "array": "c",
+            "span": "c",
+            "vector": "c",
+            "xstring": "c",
+            "xutility": "c",
+            "string": "c",
+            "string_view": "c",
+            "pplcount.h": "c",
+            "complex_math_functions.h": "c",
+            "arm_math_types.h": "c",
+            "statistics_functions.h": "c",
+            "matrix_functions.h": "c",
+            "xensiv_bgt60trxx_mtb.h": "c",
+            "presence.h": "c",
+            "cmath": "c",
+            "complex": "c",
+            "cstdlib": "c",
+            "random": "c",
+            "xlocnum": "c",
+            "*.tcc": "c",
+            "numeric": "c",
+            "cinttypes": "c",
+            "micro_interpreter.h": "c",
+            "micro_ops.h": "c",
+            "model.h": "c",
+            "math.h": "c",
+            "all_ops_resolver.h": "c",
+            "micro_error_reporter.h": "c",
+            "schema_generated.h": "c",
+            "stddef.h": "c",
+            "cstdint": "c",
+            "micro_allocator.h": "c",
+            "flatbuffer_utils.h": "c",
+            "stdint.h": "c",
+            "flatbuffers.h": "c",
+            "compatibility.h": "c",
+            "micro_mutable_op_resolver.h": "c",
+            "flatbuffer_conversions.h": "c",
+            "tensor_ctypes.h": "c",
+            "micro_memory_planner.h": "c",
+            "simple_memory_allocator.h": "c",
+            "wrap_tflite.h": "c"
+        },
+        "cortex-debug.variableUseNaturalFormat": true
+    },
+    "extensions": {
+        "recommendations": [ "marus25.cortex-debug", "ms-vscode.cpptools", "dan-c-underwood.arm" ]
+    }
+}

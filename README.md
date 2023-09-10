@@ -1,9 +1,12 @@
-# TinyML for Presence Detection using Millimetre-Wave Radar
+# A TinyML Project: Presence Detection using Millimetre-Wave Radar
 
-> :warning: This is work-in-progress.
+Model compression notebook: `/jupyter_notebooks/training_and_compression.ipynb`
 
-This work compares various machine learning model compression techniques in terms of compression ratio and accuracy loss. Data compression techniques such as quantisation, pruning, and clustering are explored.
+Embedded implementation: `/embed_deploy`
 
-Contents of repository:
-* `/model_compression` is where you will find the compressed model source files.
-* `/embed_deploy` contains the source code for the embedded implementation.
+To activate virtual environment in terminal: myenv/Scripts/activate
+
+Upgrade pip: pip install --upgrade pip
+Kernel for Jupyter notebook in VSCode: presence_kernel
+
+Python version: 3.9.12
